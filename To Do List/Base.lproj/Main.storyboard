@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -108,18 +108,19 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pT-IH-kuI">
-                                <rect key="frame" x="66" y="269" width="189" height="30"/>
+                                <rect key="frame" x="66" y="269" width="225" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="189" id="5Lr-Qf-1Yt"/>
+                                    <constraint firstAttribute="width" constant="225" id="5Lr-Qf-1Yt"/>
                                     <constraint firstAttribute="height" constant="30" id="uuP-2k-TyE"/>
                                 </constraints>
-                                <state key="normal" title="I am ready for commitment."/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Add to-do. I got this."/>
                                 <connections>
                                     <action selector="addItem:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="M9c-sX-MNt"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.9235004186630249" green="0.6054808497428894" blue="0.81931799650192261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.9235004186630249" green="0.6054808497428894" blue="0.81931799650192261" alpha="0.43639547413793106" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5eD-e6-Aw3" firstAttribute="centerX" secondItem="OZK-Yn-5B7" secondAttribute="centerX" id="2F0-ag-Y3H"/>
                             <constraint firstItem="5eD-e6-Aw3" firstAttribute="top" secondItem="soh-5x-2Fo" secondAttribute="bottom" constant="46" id="C5h-c8-ckK"/>
@@ -133,7 +134,7 @@
                             <constraint firstItem="OZK-Yn-5B7" firstAttribute="top" secondItem="5eD-e6-Aw3" secondAttribute="bottom" constant="40" id="iFK-MX-FfH"/>
                             <constraint firstItem="4pT-IH-kuI" firstAttribute="top" secondItem="OZK-Yn-5B7" secondAttribute="bottom" constant="43" id="njU-I3-Jc3"/>
                             <constraint firstAttribute="trailing" secondItem="soh-5x-2Fo" secondAttribute="trailing" id="otM-gK-RxQ"/>
-                            <constraint firstItem="4pT-IH-kuI" firstAttribute="centerX" secondItem="OZK-Yn-5B7" secondAttribute="centerX" id="pJj-tB-Bn5"/>
+                            <constraint firstItem="4pT-IH-kuI" firstAttribute="centerX" secondItem="OZK-Yn-5B7" secondAttribute="centerX" constant="18.5" id="pJj-tB-Bn5"/>
                             <constraint firstItem="4pT-IH-kuI" firstAttribute="top" secondItem="OZK-Yn-5B7" secondAttribute="bottom" constant="43" id="qQd-7d-D4h"/>
                             <constraint firstItem="5eD-e6-Aw3" firstAttribute="top" secondItem="soh-5x-2Fo" secondAttribute="bottom" constant="46" id="yYB-fY-nHa"/>
                             <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="4pT-IH-kuI" secondAttribute="bottom" constant="220" id="yy6-Sa-SWx"/>
